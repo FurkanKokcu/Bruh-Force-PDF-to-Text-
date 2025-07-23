@@ -21,45 +21,18 @@ Designed especially for extracting text from Turkish medical and dental document
 
 ---
 
-## Requirements
-
-- Python 3.7 or higher  
-- PyQt5  
-- pdf2image  
-- pytesseract  
-- Poppler (required by pdf2image)  
-- Tesseract OCR engine (with Turkish language data)
-
----
-
 ## Installation
 
 Install the necessary Python packages via pip:
 
 ```bash
-pip install PyQt5 pdf2image pytesseract
+pip install -r requirements.txt
 ```
-Additional system dependencies:
-
-    Poppler:
-
-        Windows: Download binaries from Poppler for Windows and add to your system PATH.
-
-        Linux:
-
-    sudo apt-get install poppler-utils
-
-Tesseract OCR:
-
-    Windows: Download from Tesseract at UB Mannheim
-
-    Linux:
-
-        sudo apt-get install tesseract-ocr tesseract-ocr-tur
 
 How to Run
-
+```bash
 python main.py
+```
 
 Usage
 
